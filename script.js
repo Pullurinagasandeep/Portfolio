@@ -15,13 +15,16 @@ hamLinks.addEventListener("click",() =>{
      if(hamLinks.classList.contains("show")){
        hamLinks.classList.remove("show");
    }
+    hamopen.classList.toggle("display");
+    hamclose.classList.toggle("display");
 });
 
 main.addEventListener("click",() =>{
    if(hamLinks.classList.contains("show")){
        hamLinks.classList.remove("show");
    }
-    
+    hamopen.classList.toggle("display");
+    hamclose.classList.toggle("display");
 });
 
 
