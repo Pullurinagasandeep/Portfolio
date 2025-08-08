@@ -165,7 +165,6 @@ header__logo::before{
 
 .header__links{
 	display:flex;
-	
 	list-style-type:none;
 }
 @media(max-width:43.75rem){
@@ -183,16 +182,16 @@ header__logo::before{
 .hambarger{
   height: 3rem;
   width:3rem;
-	display:none;
+  display:none;
 	
 }
 
 @media(max-width:43.75rem){
     .hambarger{
-        display:block;
-        
+        display:block;    
     }
 }
+
 .ham__link{
 	border-top:1px solid lightgray ;
 	display: block;    
