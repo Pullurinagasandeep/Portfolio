@@ -28,8 +28,6 @@ main.addEventListener("click",() =>{
 
 window.addEventListener("scroll",() =>{
     hamLinks.classList.remove("show");
-    hamopen.classList.toggle("display");
-    hamclose.classList.toggle("display");
 });
 
 
