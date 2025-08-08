@@ -19,15 +19,21 @@ hamLinks.addEventListener("click",() =>{
 });
 
 main.addEventListener("click",() =>{
-    hamLinks.classList.remove("show");
-    hamopen.classList.toggle("display");
-    hamclose.classList.toggle("display");
+    if(hamLinks.classList.contains("show"){     
+        hamLinks.classList.remove("show");
+        hamopen.classList.toggle("display");
+        hamclose.classList.toggle("display");
+    }
 });
 
 
 
 window.addEventListener("scroll",() =>{
-    hamLinks.classList.remove("show");
+    if(hamLinks.classList.contains("show"){     
+        hamLinks.classList.remove("show");
+        hamopen.classList.toggle("display");
+        hamclose.classList.toggle("display");
+    }
 });
 
 
