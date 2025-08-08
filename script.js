@@ -21,8 +21,8 @@ hamLinks.addEventListener("click",() =>{
 main.addEventListener("click",() =>{
     if(hamLinks.classList.contains("show"){     
         hamLinks.classList.remove("show");
-        hamopen.classList.toggle("display");
-        hamclose.classList.toggle("display");
+        hamopen.classList.remove("display");
+        hamclose.classList.add("display");
     }
 });
 
@@ -31,8 +31,8 @@ main.addEventListener("click",() =>{
 window.addEventListener("scroll",() =>{
     if(hamLinks.classList.contains("show"){     
         hamLinks.classList.remove("show");
-        hamopen.classList.toggle("display");
-        hamclose.classList.toggle("display");
+        hamopen.classList.remove("display");
+        hamclose.classList.add("display");
     }
 });
 
