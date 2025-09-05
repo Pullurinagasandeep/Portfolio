@@ -244,7 +244,13 @@
 .contact__cta {
   margin-top: 4rem;
 }
-
+.contact-form {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 2rem 4rem;
+  border-radius: 1rem;
+  max-width: 750px;
+  margin: 0 auto;
+}
 .contact form {
   display: flex;
   flex-direction: column;
