@@ -282,3 +282,7 @@
   font-size: 3rem;
   margin: 20px auto;
 }
+.contact form .button {
+  width: max-content;
+  margin: 0 auto;
+}

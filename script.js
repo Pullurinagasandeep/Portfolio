@@ -21,12 +21,10 @@ main.addEventListener("click", removeHamLinks);
 window.addEventListener("scroll", removeHamLinks);
 
 // form handling
-let submitBtn = document.querySelector("#form-submit");
+
 let form = document.querySelector("form");
 form.addEventListener("submit", (e) => {
   e.preventDefault();
-});
-submitBtn.addEventListener("click", () => {
   alert("Form Submitted Successfully!");
   form.reset();
 });
