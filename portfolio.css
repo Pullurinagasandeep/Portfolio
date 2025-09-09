@@ -278,3 +278,7 @@
   margin: 0 auto;
   cursor: pointer;
 }
+.contact form h3 {
+  font-size: 3rem;
+  margin: 20px auto;
+}
